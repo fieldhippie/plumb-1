@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "plumb-dev"
-version = "0.2.4"
+version = "0.2.5"
 description = "Keep spec, tests, and code in sync during AI-assisted development"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -17,7 +17,7 @@ dependencies = [
     "click",
     "rich",
     "jsonlines",
-    "duckdb",
+    "duckdb>=1.0",
     "python-dotenv",
 ]
 
